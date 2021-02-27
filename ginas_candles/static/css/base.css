@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Tangerine:wght@400;700&display=swap');
+
+.color-main {
+    background-color: rgb(79, 0, 31);
+}
+
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #ffffff;
+    list-style: none;
+}
+
+.logofont {
+    font-family: 'Tangerine', cursive;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
+.bground-img {
+    background-image: url("../bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
 html {
     height: 100%;
 }
