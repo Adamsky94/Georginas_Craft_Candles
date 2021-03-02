@@ -53,10 +53,18 @@ body {
     width: fit-content;
 }
 
-/*navbar*/
+/*navigation*/
 
 .navbar-dark .navbar-nav .nav-link {
     color: white;
+}
+
+a.nav-link i {
+    color: rgb(140, 0, 125);
+}
+
+a.nav-link i:hover {
+    color: white
 }
 
 /*buttons*/
@@ -90,7 +98,7 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: rgba(46, 0, 41, 0.5);
+    background: rgb(140, 0, 125);
     color: white;
 }
 
@@ -102,8 +110,10 @@ footer {
     padding-left: 4px;
 }
 
-.footer-link i:hover{
+.footer-link i:hover,
+.footer-link:hover {
     color: rgb(140, 0, 125);
+    transition: all ease-in-out 0.3s;
 }
 
 /* -------------------------------- Media Queries */
