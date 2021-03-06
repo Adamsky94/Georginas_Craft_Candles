@@ -14,6 +14,7 @@
     font-family: 'Tangerine', cursive;
     font-style: italic;
     font-size: 2.5rem;
+    text-shadow: 4px 4px 8px rgb(255, 0, 255);
 }
 
 a.footer-link {
@@ -70,6 +71,10 @@ a.nav-link i:hover {
     color: white
 }
 
+span.small a {
+    color: white;
+    font-size: 1rem;
+}
 /*buttons*/
 .shop-now-button {
     background: rgba(39, 39, 39, 0.3);
@@ -103,6 +108,26 @@ a.nav-link i:hover {
 .btn-black:focus {
     background: rgb(140, 0, 125);
     color: white;
+}
+
+/*Scrollbar code from https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(140, 0, 125);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: indigo;
 }
 
 /*product card*/

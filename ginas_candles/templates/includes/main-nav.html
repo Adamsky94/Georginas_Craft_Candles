@@ -16,31 +16,9 @@
                 Candles
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                {% for material in products.product_material %}
-                <a href="" class="dropdown-item">{ material }</a>
-                {% endfor %}
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link text-black mr-5" href="tealights" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Colors
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Lavender</a>
-                <a href="" class="dropdown-item">Cinnamon</a>
-                <a href="" class="dropdown-item">Berries</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link text-black mr-5" href="tealights" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Scents
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Lavender</a>
-                <a href="" class="dropdown-item">Cinnamon</a>
-                <a href="" class="dropdown-item">Berries</a>
+                <a href="{% url 'products' %}?category=Beeswax" class="dropdown-item">Beeswax</a>
+                <a href="{% url 'products' %}?category=Paraffin" class="dropdown-item">Paraffin</a>
+                <a href="{% url 'products' %}?category=Soy Wax" class="dropdown-item">Soy Wax</a>
             </div>
         </li>
 
