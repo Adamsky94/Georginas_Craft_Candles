@@ -54,6 +54,9 @@ body {
 }
 
 /*navigation*/
+.navbar-dark {
+    background-color: rgba(0, 0, 0, 0.75);
+}
 
 .navbar-dark .navbar-nav .nav-link {
     color: white;
@@ -100,6 +103,13 @@ a.nav-link i:hover {
 .btn-black:focus {
     background: rgb(140, 0, 125);
     color: white;
+}
+
+/*product card*/
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
 }
 
 .color-black {
