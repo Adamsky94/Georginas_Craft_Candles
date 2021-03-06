@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Tangerine:wght@400;700&display=swap');
 
 .color-main {
-    background-color: rgba(46, 0, 41, 0.5);
+    background-color: rgb(46, 0, 40);
 }
 
 * {
@@ -102,6 +102,11 @@ a.nav-link i:hover {
     color: white;
 }
 
+.color-black {
+    color: black !important;
+}
+
+/*footer*/
 footer {
     margin-top: auto;
 }
