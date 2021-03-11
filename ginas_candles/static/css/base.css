@@ -87,6 +87,10 @@ span.small a {
     color: white;
 }
 
+.btn-indigo {
+    background-color: indigo;
+}
+
 .btn-outline-black {
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
