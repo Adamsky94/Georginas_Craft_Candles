@@ -23,9 +23,12 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'products' %}?promotion=True" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Super Deals
+            <a class="font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Promotion
             </a>
+            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+                <a href="{% url 'products' %}?color=white" class="dropdown-item">Super Deals</a>
+            </div>
         </li>
     </ul>
 </div>
