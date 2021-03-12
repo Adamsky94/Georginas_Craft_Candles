@@ -60,7 +60,7 @@
                                                         </button>
                                                     </div>
                                                     <input class="form-control form-control-sm qty_input" type="number"
-                                                        name="quantity" value="{{ item.quantity }}" min="1" max="99"
+                                                        name="quantity" value="{{ item.quantity }}" min="1" max="20"
                                                         data-item_id="{{ item.item_id }}"
                                                         id="id_qty_{{ item.item_id }}">
                                                     <div class="input-group-append">
@@ -71,14 +71,11 @@
                                                             </span>
                                                         </button>
                                                     </div>
-                                                    {% if item.product.has_sizes %}
-                                                        <input type="hidden" name="product_size" value="{{ item.size }}">
-                                                    {% endif %}
                                                 </div>
                                             </div>
                                         </form>
                                         <a class="update-link text-info"><small>Update</small></a>
-                                        <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-size="{{ item.size }}"><small>Remove</small></a>
+                                        <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"><small>Remove</small></a>
                                     </td>
                                     <td class="py-3">
                                         <p class="my-0">€{{ item.product.price }}</p>
@@ -90,11 +87,6 @@
                                     <h6><strong>Bag Total: €{{ total|floatformat:2 }}</strong></h6>
                                     <h6>Delivery: €{{ delivery|floatformat:2 }}</h6>
                                     <h4 class="mt-4"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
-                                    {% if free_delivery_delta > 0 %}
-                                        <p class="mb-1 text-danger">
-                                            You could get free delivery by spending just <strong>€{{ free_delivery_delta }}</strong> more!
-                                        </p>
-                                    {% endif %}
                                 </td>
                             </tr>
                             <tr>
@@ -145,7 +137,7 @@
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
         var url = `/bag/remove/${itemId}`;
-        var data = {'csrfmiddlewaretoken': csrfToken, 'size': size};
+        var data = {'csrfmiddlewaretoken': csrfToken};
 
         $.post(url, data)
          .done(function() {
