@@ -89,6 +89,7 @@ span.small a {
 
 .btn-indigo {
     background-color: indigo;
+    border: solid 1px black;
 }
 
 .btn-outline-black {
