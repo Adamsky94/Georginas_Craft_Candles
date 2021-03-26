@@ -1,0 +1,1 @@
+Georgina's Craft Candles order for Order Number {{ order.order_number }}
