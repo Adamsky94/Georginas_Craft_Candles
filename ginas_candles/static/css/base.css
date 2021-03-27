@@ -10,6 +10,11 @@
     list-style: none;
 }
 
+.pinklink,
+.pinklink:hover {
+    color: #ff00ff;
+}
+
 .logofont {
     font-family: 'Tangerine', cursive;
     font-style: italic;
