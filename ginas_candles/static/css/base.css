@@ -242,6 +242,11 @@ a.category-badge > span.badge:hover {
     font-weight: 700;
 }
 
+.toast-body p {
+    color: black;
+}
+
+
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
