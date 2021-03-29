@@ -303,6 +303,11 @@ a.category-badge > span.badge:hover {
     overflow-y: auto;
 }
 
+#bag-image,
+#bag-noimage{
+    height: 200px;
+}
+
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
@@ -363,7 +368,7 @@ a.category-badge > span.badge:hover {
 }
 
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* pad the top a bit when navbar is collapsed on mobile and adjust footer text size */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
@@ -421,4 +426,40 @@ a.category-badge > span.badge:hover {
         font-size: 16px;
     }
    
+}
+
+/*adjust size for product card images */
+
+
+@media (max-width: 991px) {
+    .img-fluid {
+        height: 40vw;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .img-fluid {
+        height: 50vw;
+    }
+    #bag-image,
+    #bag-noimage{
+        height: 100px;
+}
+}
+
+@media (max-width: 425px) {
+    .img-fluid {
+        height: 100vw;
+    }
+    
+    body{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 991px) {
+    .img-fluid {
+        height: 30vw;
+    }
 }
