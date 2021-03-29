@@ -144,9 +144,13 @@
 
                     <div class="col l4 offset-l2 s12 text-center">
                         <ul>
-                            <li><a class="footer-link" href="">Log In</a></li>
-                            <li><a class="footer-link" href="">Register</a></li>
-                            <li><a class="footer-link" href="">Super Deals</a></li>
+                            {% if request.user.is_authenticated %}
+                            <li><a class="footer-link" href="{% url 'profile' %}" class="dropdown-item">My Profile</a></li>
+                            {% else %}
+                            <li><a class="footer-link" href="{% url 'account_login' %}">Log In</a></li>
+                            <li><a class="footer-link" href="{% url 'account_signup' %}">Register</a></li>
+                            {% endif %}
+                            <li><a class="footer-link" href="#">Super Deals</a></li>
                         </ul>
                     </div>
             

@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,300;0,700;1,400&family=Tangerine:wght@400;700&display=swap');
 
 .color-main {
     background-color: rgb(46, 0, 40);
 }
 
 * {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
     color: #ffffff;
     list-style: none;
 }
@@ -165,7 +165,7 @@ footer {
 
 .footer-link i:hover,
 .footer-link:hover {
-    color: rgb(140, 0, 125);
+    color: #ff00ff;
     transition: all ease-in-out 0.3s;
 }
 
@@ -175,7 +175,7 @@ footer {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: rgba(255, 255, 255, 0.13);
+	background: rgba(128, 128, 128, 0.1);
 	z-index: -1;
 }
 

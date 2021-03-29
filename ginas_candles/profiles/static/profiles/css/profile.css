@@ -19,3 +19,9 @@
 #id_default_country option:first-child {
     color: #aab7c4;
 }
+
+a,
+a:hover {
+    color: #ff00ff;
+    transition: all ease-in-out 0.3s;
+}
