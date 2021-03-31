@@ -1,0 +1,1 @@
+web: gunicorn ginas-candles.wsgi:application

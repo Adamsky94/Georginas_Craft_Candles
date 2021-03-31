@@ -1,0 +1,514 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "category": 5,
+        "name": "Rustic Pillar Drip Candle",
+        "scent": "Sweet",
+        "color": "Gold",
+        "material": "Beeswax",
+        "description": "100% organic, pure beeswax, hand-dripped candle. These hand-crafted candles have a golden hue and a light, sweet, natural scent which comes from the honey and nectar which blends into the wax in the beehive. The rustic look of these candles makes them an ideal gift for anyone; they can be bought as a decorative centrepiece, thank you gift, wedding favour or indulgent treat for you!",
+        "price": "13.99",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.1334869526_l7o7_lkI4xBu.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "category": 7,
+        "name": "Cinnamon Blackberry Can",
+        "scent": "Cinnamon",
+        "color": "Blue",
+        "material": "Soy Wax",
+        "description": "Blackberries are no longer only good for decorating a cake or serving as a name for a button phone. Now, these ripe beauties come back to life in a new form – meet blackberry-shaped, cinnamon-scented vegetable wax candles sealed in a can.",
+        "price": "24.99",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2572177060_5eoj_nY8GZFa.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "category": 7,
+        "name": "Seashells and Salt",
+        "scent": "Lime and Coconut",
+        "color": "White",
+        "material": "Soy Wax",
+        "description": "Ever wanted to bring the ocean home? Directly from stunning South Australian beaches the beautiful shells and sea weed are collected and naturally cleaned to bring a breath of fresh air into your home. Step onto the beach with this refreshingly zesty flavour and its irresistible fusion of fresh coconut & lime.",
+        "price": "16.89",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2717602538_3o83_lVNtql0.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "category": 6,
+        "name": "Rose Candle",
+        "scent": "Rose & Jasmine",
+        "color": "White",
+        "material": "Paraffin",
+        "description": "Candles with dried flowers will be a wonderful gift or an element of your home decor. Each of the candles is unique and inimitable because it is made entirely by hand. When a candle is lit, you find yourself in a fairy tale, as the shadows of flowers play on the walls and give a wonderful atmosphere. The aroma of the red rose will not leave indifferent fans of this passionate flower.",
+        "price": "15.69",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2922370425_ncov_CdYgoD2.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "category": 6,
+        "name": "Butterfly Cube",
+        "scent": "Ylang Ylang",
+        "color": "Yellow",
+        "material": "Paraffin",
+        "description": "Scented Handmade and Decorated Candle. Made with Ylang Ylang essential oil. Brings harmony and balance in mind, body and soul, acting antidepressant, relaxing. Burns for about 40 hours. Ylang Ylang is one of our signature scents, it burns beautifully and smells divine.",
+        "price": "24.64",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.1968996889_fsa4_9nduZYM.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "category": 6,
+        "name": "Wild Flowers",
+        "scent": "Vanilla",
+        "color": "White",
+        "material": "Paraffin",
+        "description": "Candles with dried flowers will be a wonderful gift or an element of your home decor. Each of the candles is unique and inimitable because it is made entirely by hand. When a candle is lit, you find yourself in a fairy tale, as the shadows of flowers play on the walls and give a wonderful atmosphere.",
+        "price": "12.99",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2886726230_s4ge_xhJlgsp.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "category": 7,
+        "name": "Strawberry Milkshake",
+        "scent": "Sweet",
+        "color": "Pink",
+        "material": "Soy Wax",
+        "description": "Make Valentine’s Day special with sweet Strawberries whipped to perfection. Our Candles are handcrafted in Atlanta cruelty free/vegan/eco friendly sustainable. Organic Soy Wax.",
+        "price": "22.14",
+        "promotion": true,
+        "image_url": null,
+        "image": "il_794xN.2802553558_agpr_L0yBiaY.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "category": 6,
+        "name": "Seashore Sky",
+        "scent": "Fresh",
+        "color": "Blue",
+        "material": "Paraffin",
+        "description": "Hand painted candle cube. Blue sky, blue sea and sand dunes. For cozy home. For gift giving for a friend.\r\nCandle cube size 8x6x6cm (3.15”x2.36”x2.36”) burning time about 24h. Every candle hand poured and painted by me with special hot wax. I don't use any stencils, so every candle a little bit vary from another. All decoration melts when candle burns. So you'll have two in one - decoration and candle light, you don't need any special candle holder, use a simple plate to protect your surfaces from heat and hot wax.",
+        "price": "12.99",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.436509199_i2pg_JHfuqNf.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "category": 6,
+        "name": "Seashore Sky Bundle",
+        "scent": "Fresh",
+        "color": "Blue",
+        "material": "Paraffin",
+        "description": "Now in three different shape for the price of 2 cubes! Blue sky, blue sea and sand dunes. For cozy home. For gift giving for a friend. Burning time about 24h. Every candle hand poured and painted by me with special hot wax. I don't use any stencils, so every candle a little bit vary from another. All decoration melts when candle burns. So you'll have two in one - decoration and candle light, you don't need any special candle holder, use a simple plate to protect your surfaces from heat and hot wax.",
+        "price": "25.98",
+        "promotion": true,
+        "image_url": null,
+        "image": "il_794xN.436506879_1fe9_meY34tI.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "category": 6,
+        "name": "Lavender & Daisies",
+        "scent": "Fresh",
+        "color": "White",
+        "material": "Paraffin",
+        "description": "This unique handmade candle will look wonderful in any place setting and add that final touch to any room. Patterns may vary slightly as all candles are handmade. This candle burns internally and illuminates the external decorated shell.",
+        "price": "18.50",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2133799888_bl71_tsaNODl.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "category": 7,
+        "name": "Chai Latte",
+        "scent": "Spicy Caramel",
+        "color": "Cream",
+        "material": "Soy Wax",
+        "description": "The subtle, spicy and gourmet fragrance of a chai latte tea, a scent that makes you want to slip under a plaid! This candle is made with quality materials, 100% natural soy wax, without GMOs or pesticides.\r\nA cotton wick, and French-made perfume.",
+        "price": "12.50",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2612554507_dbqy_c6uyQVy.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+        "category": 5,
+        "name": "Beeswax Tealight Bundle",
+        "scent": "Honey",
+        "color": "Gold",
+        "material": "Beeswax",
+        "description": "Lot of 6 natural beeswax candles, hand-rolled around an organic hemp wick! Perfect for lighting at the edge of a bathtub for example, for an authentic atmosphere and a sweet beehive smell!",
+        "price": "10.99",
+        "promotion": true,
+        "image_url": null,
+        "image": "il_794xN.2287656814_9xm0_Or4uihj.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+        "category": 7,
+        "name": "Hurricane",
+        "scent": "Fresh",
+        "color": "White",
+        "material": "Soy Wax",
+        "description": "Pretty pillar candle decorated with real dried pressed flowers. Made with 100% all natural eco wax. The colors may vary slightly.",
+        "price": "16.00",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2717928066_pfcl_UufIpAx.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+        "category": 7,
+        "name": "Lavender Dream",
+        "scent": "Lavender",
+        "color": "White",
+        "material": "Soy Wax",
+        "description": "100% natural soy handmade candle with herbs and petals and organic essential oil. Glass jar, 10 cm high. For your meditations and ritual baths but also as a gift. Useful to relax body and mind and fall into a deep and revealing sleep.",
+        "price": "10.99",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2597931141_lxeq_4ky3G59.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+        "category": 7,
+        "name": "Forest Tealight Bundle",
+        "scent": "Peppermint & Eucalyptus",
+        "color": "White",
+        "material": "Soy Wax",
+        "description": "Candles with dried juniper, juniper berries and rowan berries, peppermint essential oil, eucalyptus essential oil. Bring home some extra light, warmth and touch of nature. As we make each and every candle by hand every candle is unique and brings home warmth and power of nature in your home when you use it.",
+        "price": "9.99",
+        "promotion": true,
+        "image_url": null,
+        "image": "il_794xN.2122785137_93wv_o0WdhtG.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+        "category": 7,
+        "name": "Wee Shell Sea",
+        "scent": "Fresh",
+        "color": "Blue",
+        "material": "Soy Wax & Gel",
+        "description": "I promise it will be brighter than the play of words above! Feel the fresh Oceanic breeze in your home!",
+        "price": "25.00",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2523463559_clim_7oRuFAt.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+        "category": 7,
+        "name": "Lobelia Field",
+        "scent": "Sweet",
+        "color": "White",
+        "material": "Soy Wax",
+        "description": "Pretty pillar candle decorated with real dried pressed flowers. Made with 100% all natural eco wax.",
+        "price": "16.99",
+        "promotion": true,
+        "image_url": null,
+        "image": "il_794xN.2765601799_1lwp_gKECntG.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+        "category": 6,
+        "name": "Autumn Aces Tealight Bundle",
+        "scent": "Fresh",
+        "color": "White",
+        "material": "Paraffin",
+        "description": "Set of four tealights to bring your Autumn in your living room. As we make each and every candle by hand every candle is unique and brings home warmth and power of nature in your home when you use it.",
+        "price": "20.00",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2683238787_qvoh_fUiwsht.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+        "category": 7,
+        "name": "Galaxy Cup Bundle",
+        "scent": "Lavender",
+        "color": "Blue",
+        "material": "Soy Wax",
+        "description": "Set of 3 decorative \"Galaxy\" candle comes in an antique teacup with saucer made of fine porcelain. The soy wax is crispy and is decorated with a moonstone, lavender, raw quartz crystal, and glittering powder.",
+        "price": "29.99",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2813984927_lkhe_cfaVbO7.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+        "category": 6,
+        "name": "Colorful Pillars Bundle",
+        "scent": "Fresh",
+        "color": "Gradient",
+        "material": "Paraffin",
+        "description": "Handmade candles made from high quality ingredients with a very calm flame which will burn for up to around 80 hours. They may have slightly different colour tint and patterns because every candle is handmade and unique! Imagine a nice evening with a glass of wine or cup of tea by the flickering light of a candle. It is definitely something special. Candles can be also used as important element of interior design.",
+        "price": "39.99",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2715803142_exlh_VPvQR9p.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 21,
+    "fields": {
+        "category": 7,
+        "name": "Cinnamon Tealight Bundle",
+        "scent": "Cinnamon",
+        "color": "White",
+        "material": "Soy Wax",
+        "description": "Design of candle may vary a bit due to being handmade and having natural ingredients added. Ideal for a gift for family, friends, and lovers, our soy wax candles are a perfect addition to any home. These candles are great for anyone who loves the scent of a candle burning, or the warm, happy glow of a candle inside their house.",
+        "price": "24.99",
+        "promotion": true,
+        "image_url": null,
+        "image": "il_794xN.2198588887_35nf_MkKIE68.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 22,
+    "fields": {
+        "category": 7,
+        "name": "Creamy Orange Bundle",
+        "scent": "Orange",
+        "color": "Cream",
+        "material": "Soy Wax",
+        "description": "Set of 2 Blood Orange and Lemon Scented Candle. Cheers!",
+        "price": "19.99",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2254101900_tbjl_xJguwkb.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 23,
+    "fields": {
+        "category": 7,
+        "name": "Lavender Blossoms Tealight Bundle",
+        "scent": "Lavender",
+        "color": "White",
+        "material": "Soy Wax",
+        "description": "Set of 8 natural soy wax candle with lavender essential oil. This candle has soothing, calming and overall balancing properties. The oil contained in the candle has a gentle, refreshing soothing scent, filling the air with a pleasant aroma that stimulates and relaxes at the same time. This candle is perfect for cosy evenings or a gift",
+        "price": "34.99",
+        "promotion": true,
+        "image_url": null,
+        "image": "il_794xN.2231109804_a7hw_l2bJa7x.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 24,
+    "fields": {
+        "category": 6,
+        "name": "Colossal Fossils",
+        "scent": "Lily",
+        "color": "Cream",
+        "material": "Paraffin",
+        "description": "Set of 2 extravagant handmade paraffin wax candles in concrete with golden shells and stones.",
+        "price": "24.99",
+        "promotion": true,
+        "image_url": null,
+        "image": "il_794xN.2882738520_1ko7_Ic5DJEo.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 25,
+    "fields": {
+        "category": 7,
+        "name": "Maroon Heart",
+        "scent": "Sweet",
+        "color": "Gradient",
+        "material": "Soy Wax",
+        "description": "Marbled pink, yellow, and purple heart candle. Height 210 mm Width 70 mm x 61 mm. Each of my marbled candles is unique so those you receive may vary slightly from those shown. Also please be aware that monitors can display colours a bit differently from the reality. For best burning results keep the candle out of draughts and the wick trimmed regularly.",
+        "price": "19.99",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.1262477100_muyb_ltLwLvY.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 26,
+    "fields": {
+        "category": 7,
+        "name": "Cubic Orangina",
+        "scent": "Orange",
+        "color": "White",
+        "material": "Soy Wax",
+        "description": "Handcrafted, entirely handmade, decorated in neutral tones and scented with essential oils. Formed by an outer paraffin wax border decorated with dried flowers and aromas in various shades and an internal soy wax candle, natural or colorful and fragrant. Any imperfections in shape and finish are due to the craftsmanship and make the piece unique and original.",
+        "price": "19.99",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2500293767_dbu8_0FXwFow.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 27,
+    "fields": {
+        "category": 7,
+        "name": "Nordic Winds",
+        "scent": "Fresh",
+        "color": "White",
+        "material": "Soy Wax",
+        "description": "You could swear you're feeling the cold breeze through your room when you light this decorative piece!",
+        "price": "14.99",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2655029872_8uvx_5peEzuP.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 28,
+    "fields": {
+        "category": 7,
+        "name": "Nature's Gift Tealight Bundle",
+        "scent": "Fresh",
+        "color": "Cream",
+        "material": "Soy Wax",
+        "description": "Set of 5 candles with dried flowers, essential oil. The themes are: Rose, Cinnamon, Cereal, Festive and Forest. Every candle is unique in design and may look different from the ones in picture. As we make each and every candle by hand every candle is unique and brings home warmth and power of nature in your room when you use it. Candle burns at least for 20 hours. We recommend burning it for 3-4 hours one time in a row, not longer, so the candle can remain as a lantern and look beautifully.",
+        "price": "34.99",
+        "promotion": true,
+        "image_url": null,
+        "image": "il_794xN.1625728252_mv8c_NjZZDkQ.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 29,
+    "fields": {
+        "category": 5,
+        "name": "Rustic Beehive",
+        "scent": "Honey",
+        "color": "Green",
+        "material": "Beeswax",
+        "description": "Handmade, rolled beeswax candles in a variety of colours. Each pack contains three candles of the same colour, perfect for use in spells and rituals. Each candle is 10cm in length and 1.5cm in diameter. Burn time is approximately one hour but this does vary slightly with each candle. Please note that the candles you receive may be slightly lighter or darker shades of the colour of the candles pictured. This is due to the candles being a natural handmade product. We do our very best to ensure that all the colours are as close as possible to the one pictured.",
+        "price": "9.99",
+        "promotion": true,
+        "image_url": null,
+        "image": "il_794xN.2012166778_8wwr_gWXO4aJ.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 30,
+    "fields": {
+        "category": 6,
+        "name": "Colorful & Carved",
+        "scent": "Unscented",
+        "color": "Gradient",
+        "material": "Paraffin",
+        "description": "This candle is not just candle - it is a hand-carved piece of art - perfection, and attention to details. These eye-catching, unique and colorful hand carved candles are created following well-proven process/technology from the 16th century - that is what makes candles unique. Candles are made of candle wax, paraffin, acrylic lacquer and different decoration elements to make them beautiful. It does not matter if the recipient is candle lover or not carved candle can be a great gift. The candle will look beautiful in any home interior setup and they will please your eyes every day - also candle is a conversation starter piece.",
+        "price": "29.99",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2518306143_qhgr_kMQ8pSb.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 31,
+    "fields": {
+        "category": 7,
+        "name": "The Brighter Side",
+        "scent": "Sweet",
+        "color": "White",
+        "material": "Soy Wax",
+        "description": "Come to the Dark Side, We have cookies! Presented in an enamel steel mug with wooden wicks. Decorated with a Star Wars inspired sticker. Organic soy wax. Approx. 25 hours burn time. Wooden wicks take longer to form a proper flame. To notice the fragrance, the candle must be lit for a longer time, a minimum of 45 to 60 minutes, depending on the room. Trim the wick before each use to prolong the life of the candle. If the candle is lit, the container can be hot, do not touch or move it around when the wick is burning.",
+        "price": "19.77",
+        "promotion": true,
+        "image_url": null,
+        "image": "il_794xN.2822908060_j63v_kA9MtqL.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 32,
+    "fields": {
+        "category": 6,
+        "name": "Carving for Summer",
+        "scent": "Unscented",
+        "color": "Gradient",
+        "material": "Paraffin",
+        "description": "This candle is not just candle - it is a hand-carved piece of art - perfection, and attention to details along with a stunning mix of green, white and features flowers and ladybugs. These eye-catching, unique and colorful hand carved candles are created following well-proven process/technology from the 16th century - that is what makes candles unique. Candles are made of candle wax, paraffin, acrylic lacquer and different decoration elements to make them beautiful. This candles really is too nice to burn!",
+        "price": "29.99",
+        "promotion": false,
+        "image_url": null,
+        "image": "il_794xN.2518303961_7pjd.jpg"
+    }
+}
+]
