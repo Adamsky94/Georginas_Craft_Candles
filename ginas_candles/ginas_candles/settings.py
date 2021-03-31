@@ -14,7 +14,6 @@ import os
 import dj_database_url
 import django_heroku
 from pathlib import Path
-from decouple import config
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -34,7 +33,6 @@ DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['ginas-candles.herokuapp.com', 'localhost']
 
-HEROKU_SECRET_KEY = os.environ.get('HEROKU_SECRET_KEY')
 
 # Application definition
 
@@ -195,5 +193,5 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 # Email
 DEFAULT_FROM_EMAIL = 'Georginascraft@candles.ie'
 
-# Activate Django-Heroku.
+# Configure Django App for Heroku.
 django_heroku.settings(locals())
