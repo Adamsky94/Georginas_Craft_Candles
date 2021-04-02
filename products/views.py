@@ -47,6 +47,9 @@ def all_products(request):
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
+        if 'promotion' in request.GET:
+            products = products.filter(promotion=True)
+
     current_sorting = f'{sort}_{direction}'
 
     context = {
