@@ -154,6 +154,11 @@ span.small a {
     color: black !important;
 }
 
+/*dropdown option color*/
+option {
+    color: black !important;
+}
+
 /*footer*/
 footer {
     margin-top: auto;
