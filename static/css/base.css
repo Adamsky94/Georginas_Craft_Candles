@@ -514,7 +514,7 @@ a.footer-link {
 
 @media (max-width: 768px) {
 	.img-fluid {
-		height: 60vw;
+		height: 40vw;
 	}
 	#bag-image,
 	#bag-noimage {
@@ -524,7 +524,7 @@ a.footer-link {
 
 @media (max-width: 575px) {
 	.img-fluid {
-		height: 100vw;
+		height: 60vw;
 	}
 	body {
 		font-size: 12px;
@@ -537,7 +537,7 @@ a.footer-link {
 
 @media (max-width: 425px) {
 	.img-fluid {
-		height: 100vw;
+		height: 70vw;
 	}
 	body {
 		font-size: 12px;
@@ -550,6 +550,6 @@ a.footer-link {
 
 @media (min-width: 991px) {
 	.img-fluid {
-		height: 30vw;
+		height: 25vw;
 	}
 }
