@@ -16,23 +16,6 @@
 	list-style: none;
 }
 
-.pinklink,
-.pinklink:hover {
-	color: #ff00ff;
-}
-
-.logofont {
-	font-family: 'Tangerine', cursive;
-	font-style: italic;
-	font-size: 2.5rem;
-	text-shadow: 4px 4px 8px rgb(255, 0, 255);
-}
-
-a.footer-link {
-	text-decoration: none;
-	color: white;
-}
-
 html {
 	height: 100%;
 }
@@ -53,14 +36,20 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 }
-
+/* site logo */
 .logo {
 	max-height: 40px;
 }
 
+.logofont {
+	font-family: 'Tangerine', cursive;
+	font-style: italic;
+	font-size: 2.5rem;
+	text-shadow: 4px 4px 8px rgb(255, 0, 255);
+}
+
 
 /* from Bulma */
-
 .icon {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
@@ -80,7 +69,6 @@ body {
 	width: -moz-fit-content;
 	width: fit-content;
 }
-
 
 /*navigation*/
 
@@ -150,6 +138,13 @@ span.small a {
 	border: 1px solid black;
 }
 
+.btt-button {
+	height: 42px;
+	width: 42px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
 
 /*Scrollbar code from https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp*/
 
@@ -192,38 +187,8 @@ span.small a {
 
 
 /*dropdown option color*/
-
 option {
 	color: black !important;
-}
-
-
-/*footer*/
-
-footer {
-	margin-top: auto;
-}
-
-.footer-link i {
-	padding-left: 4px;
-}
-
-.footer-link i:hover,
-.footer-link:hover {
-	color: #ff00ff;
-	-webkit-transition: all ease-in-out 0.3s;
-	-o-transition: all ease-in-out 0.3s;
-	transition: all ease-in-out 0.3s;
-}
-
-.overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: rgba(128, 128, 128, 0.1);
-	z-index: -1;
 }
 
 a.category-badge>span.badge:hover {
@@ -231,50 +196,7 @@ a.category-badge>span.badge:hover {
 	color: #fff !important;
 }
 
-.btt-button {
-	height: 42px;
-	width: 42px;
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-}
-
-.btt-link,
-.update-link,
-.remove-item {
-	cursor: pointer;
-}
-
-
-/* -------------------------------- Media Queries */
-
-
-/* Slightly larger container on xl screens */
-
-@media (min-width: 1200px) {
-	.container {
-		max-width: 80%;
-	}
-}
-
-
-/* fixed top navbar only on medium and up */
-
-@media (min-width: 992px) {
-	.fixed-top-desktop-only {
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-		z-index: 1030;
-	}
-	.header-container {
-		padding-top: 164px;
-	}
-}
-
-
-/* ------------------------------- bootstrap toasts */
+/* ------------- bootstrap toasts */
 
 .message-container {
 	position: fixed;
@@ -448,9 +370,78 @@ a.category-badge>span.badge:hover {
 	border-color: #ffffff;
 }
 
+/*footer*/
+
+footer {
+	margin-top: auto;
+}
+
+.footer-link i {
+	padding-left: 4px;
+}
+
+.footer-link i:hover,
+.footer-link:hover {
+	color: #ff00ff;
+	-webkit-transition: all ease-in-out 0.3s;
+	-o-transition: all ease-in-out 0.3s;
+	transition: all ease-in-out 0.3s;
+}
+
+
+a.footer-link {
+	text-decoration: none;
+	color: white;
+}
+
+/* small bits */
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: rgba(128, 128, 128, 0.1);
+	z-index: -1;
+}
+
+.pinklink,
+.pinklink:hover {
+	color: #ff00ff;
+}
+
+.btt-link,
+.update-link,
+.remove-item {
+	cursor: pointer;
+}
+
+/* -------------------------------- Media Queries */
+/* Slightly larger container on xl screens */
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 80%;
+	}
+}
+
+
+/* fixed top navbar only on medium and up */
+
+@media (min-width: 992px) {
+	.fixed-top-desktop-only {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+	}
+	.header-container {
+		padding-top: 164px;
+	}
+}
 
 /* pad the top a bit when navbar is collapsed on mobile and adjust footer text size */
-
 @media (max-width: 991px) {
 	.header-container {
 		padding-top: 116px;
@@ -482,7 +473,13 @@ a.category-badge>span.badge:hover {
 	.btn.btn-black.rounded-0.btn-lg {
 		padding: .375rem .375rem;
 		font-size: .75rem;
-	}
+    }
+    
+    .btn-indigo.rounded-0.btn-lg{
+        padding: .375rem .375rem;
+		font-size: .75rem;
+    }
+    
 	.increment-qty,
 	.decrement-qty {
 		padding: .25rem .5rem !important;
@@ -517,7 +514,7 @@ a.category-badge>span.badge:hover {
 
 @media (max-width: 768px) {
 	.img-fluid {
-		height: 50vw;
+		height: 60vw;
 	}
 	#bag-image,
 	#bag-noimage {
