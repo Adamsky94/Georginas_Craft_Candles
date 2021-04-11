@@ -123,9 +123,13 @@ Used online [image compressor](https://imagecompressor.com/) and [TinyPNG](https
 
 ##### Lighthouse Speed Tool
 
-Inspecting the deployed page with Google Chrome's Lighthouse tool highlighted potentional fixes on accessible name on buttons, accessible names on links, cross-origin destination & document meta description.
+Inspecting the deployed page with Google Chrome's `Lighthouse` tool highlighted potentional issues on `accessible name on buttons`, `accessible names on links`, `cross-origin destination` & `document meta description`.
 
 <img src="/readme_imgs/lighthouse_1.png" />
+
+After applying a `fix` for most of the above recommendations the project's Lighthouse score look like the following:
+
+<img src="/readme_imgs/lighthouse_2.png" />
 
 -----------------
 
