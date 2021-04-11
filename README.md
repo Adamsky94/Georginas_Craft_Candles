@@ -4,7 +4,7 @@ Code Institute Diploma in Full-Stack Web Development Milestone 4 - Final Project
 
 ##### <u>Project name:</u> Georgina's Craft Candles
 
-<img src="/readme_imgs/multimockup.png" />
+<img src="/readme_imgs/logo.png" />
 
 ### View the live project: https://ginas-candles.herokuapp.com/
 
@@ -76,9 +76,7 @@ HTML5, CSS3, JavaScript-ES6, Python3
 - [Django Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)
 - [Bootstrap (v5.0)](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [JQuery](https://jquery.com/)
-- [Font Awesome](https://fontawesome.com/)
 - [Stripe](https://stripe.com/ie)
-- [Google Fonts](https://fonts.google.com/)
 
 ## Tools
 
@@ -123,9 +121,27 @@ Responsivity for mobile devices tested on:
 - Mozilla Firefox on Galaxy S9 setting
 - The deployed site on Samsung Galaxy S7 and S8 phones
 
+<img src="/readme_imgs/multimockup.png" />
+
 Used online [autoprefixer](https://autoprefixer.github.io/) for maximum browser compatibility
 
 Used online [code formatter](https://webformatter.com/) to achieve optimal syntax
+
+#### Site in action / login
+
+<img src="/readme_imgs/login.gif" />
+
+#### Site in action / products
+
+<img src="/readme_imgs/products.gif" />
+
+#### Site in action / checkout
+
+<img src="/readme_imgs/checkout.gif" />
+
+#### Site in action / search & modify
+
+<img src="/readme_imgs/search_modify.gif" />
 
 ##### Bug Fixes
 
@@ -358,7 +374,9 @@ os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH Secret Key>"
 
 ***Vie Studio*** @ Pexels - For the `Coming Soon` image used when no product image uploaded or image URL entered
 
-***Etsy.com*** - Credit for most product images and descriptions due to their respective creators/owners. These assets WILL NOT be used for commercial purposes! 
+***Etsy.com*** - [Credit](https://www.etsy.com/) for most product images and descriptions due to their respective creators/owners. These assets WILL NOT be used for commercial purposes! 
+
+***EZgif.com*** - [Converting](https://ezgif.com/) the project's captured videos to GIF
 
 ***Font Awesome*** - [CDN](https://fontawesome.com/) for icons used in the project
 
