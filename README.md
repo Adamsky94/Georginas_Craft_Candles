@@ -43,9 +43,11 @@ Code Institute Diploma in Full-Stack Web Development Milestone 4 - Final Project
 
 <img src="/readme_imgs/productdetail_pc.png" />
 
-<img src="/readme_imgs/order_pc.png" />
+<img src="/readme_imgs/bag_tab.png" />
 
-<img src="/readme_imgs/productsearch_tab.png" />
+<img src="/readme_imgs/checkout_mob.png" />
+
+<img src="/readme_imgs/order_pc.png" />
 
 <img src="/readme_imgs/edit_pc.png" />
 
@@ -94,7 +96,7 @@ HTML5, CSS3, JavaScript-ES6, Python3
 
 I used Git for version control and uploading the project to GitHub.
 
-My GitHub repository for this project: https://github.com/Adamsky94/Blitz_Bikes
+My GitHub repository for this project: https://github.com/Adamsky94/Georginas_Craft_Candles
 
 ### Testing write-up
 
@@ -327,7 +329,7 @@ os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH Secret Key>"
 
 ***Antonio Rodriguez*** - My Mentor at Code Institute - Technical and Visual feedback on my Project 
 
-***Chris Z*** - **ckz8780** @ GitHub -  Lecturer/Developer at Code Institute - For the MS4 mini-project videos and code which is the foundation of my MS4 Project
+***Chris Z*** - **ckz8780** @ GitHub -  Lecturer/Developer at Code Institute - For the MS4 mini-project videos, introduction to Slack & AWS, and the project code which is the foundation of my own MS4 Project
 
 ***Matt Rudge*** - Lecturer/Developer at Code Institute - for [template](https://github.com/Code-Institute-Org/gitpod-full-template) used with GitPod IDE for developing this project
 
