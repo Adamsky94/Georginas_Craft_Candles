@@ -4,7 +4,7 @@ Code Institute Diploma in Full-Stack Web Development Milestone 4 - Final Project
 
 ##### <u>Project name:</u> Georgina's Craft Candles
 
-<img src="../readme_imgs/multimockup.png" />
+<img src="/readme_imgs/multimockup.png" />
 
 ### View the live project: https://ginas-candles.herokuapp.com/
 
@@ -32,6 +32,12 @@ Code Institute Diploma in Full-Stack Web Development Milestone 4 - Final Project
 -----------------
 
 #### **Wireframing**
+
+<img src="/readme_imgs/index_mob.png" />
+
+<img src="/readme_imgs/login_reg_pc.png" />
+
+<img src="/readme_imgs/profile_pc.png" />
 
 
 **Color scheme and typography**
