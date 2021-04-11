@@ -8,6 +8,8 @@ Code Institute Diploma in Full-Stack Web Development Milestone 4 - Final Project
 
 ### View the live project: https://ginas-candles.herokuapp.com/
 
+-----------------
+
 ### <u>Scope of the project</u>
 
 
@@ -100,9 +102,17 @@ My GitHub repository for this project: https://github.com/Adamsky94/Georginas_Cr
 
 ### Testing write-up
 
-HTML code validated on - https://validator.w3.org/
+HTML code validated on - https://validator.w3.org/ - only shows errors on templating
 
 CSS code validated on - https://jigsaw.w3.org/css-validator/
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+
+Python3 code is PEP8 compilant - Built in linter plugin in the IDE shows no errors
 
 Responsivity for mobile devices tested on:
 
@@ -111,12 +121,11 @@ Responsivity for mobile devices tested on:
 - Microsoft Edge
 - Opera Browser
 - Mozilla Firefox on Galaxy S9 setting
+- The deployed site on Samsung Galaxy S7 and S8 phones
 
-Used online [autoprefixer](https://autoprefixer.github.io/) for maximum browser compatibility 
+Used online [autoprefixer](https://autoprefixer.github.io/) for maximum browser compatibility
 
-Used online [code formatter](https://webformatter.com/) to achieve optimal syntax 
-
-Used online [image compressor](https://imagecompressor.com/) and [TinyPNG](https://tinypng.com/) for achieving the fastest image loading times from the server 
+Used online [code formatter](https://webformatter.com/) to achieve optimal syntax
 
 ##### Bug Fixes
 
@@ -127,7 +136,7 @@ Inspecting the deployed page with Google Chrome's `Lighthouse` tool highlighted 
 
 <img src="/readme_imgs/lighthouse_1.png" />
 
-After applying a `fix` for most of the above recommendations the project's Lighthouse score look like the following:
+After applying a `fix` for most of the above recommendations the project's Lighthouse score looks like the following:
 
 <img src="/readme_imgs/lighthouse_2.png" />
 
