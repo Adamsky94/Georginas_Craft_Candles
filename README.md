@@ -39,6 +39,18 @@ Code Institute Diploma in Full-Stack Web Development Milestone 4 - Final Project
 
 <img src="/readme_imgs/profile_pc.png" />
 
+<img src="/readme_imgs/productsearch_tab.png" />
+
+<img src="/readme_imgs/productdetail_pc.png" />
+
+<img src="/readme_imgs/order_pc.png" />
+
+<img src="/readme_imgs/productsearch_tab.png" />
+
+<img src="/readme_imgs/edit_pc.png" />
+
+
+
 
 **Color scheme and typography**
 
@@ -109,6 +121,11 @@ Used online [image compressor](https://imagecompressor.com/) and [TinyPNG](https
 
 ##### Lighthouse Speed Tool
 
+Inspecting the deployed page with Google Chrome's Lighthouse tool highlighted potentional fixes on accessible name on buttons, accessible names on links, cross-origin destination & document meta description.
+
+<img src="/readme_imgs/lighthouse_1.png" />
+
+-----------------
 
 ## Deployment
 
@@ -312,7 +329,7 @@ os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH Secret Key>"
 
 ***Chris Z*** - **ckz8780** @ GitHub -  Lecturer/Developer at Code Institute - For the MS4 mini-project videos and code which is the foundation of my MS4 Project
 
-***Matt Rudge*** - Lecturer/Developer at Code Institute -  https://github.com/Code-Institute-Org/gitpod-full-template - for template used with GitPod IDE for developing this project, and lecture on Email JS
+***Matt Rudge*** - Lecturer/Developer at Code Institute - for [template](https://github.com/Code-Institute-Org/gitpod-full-template) used with GitPod IDE for developing this project
 
 ***Fatima*** - Code Institute Tutor Team - Help in creating and understanding fixtures
 
@@ -320,22 +337,20 @@ os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH Secret Key>"
 
 ***Tim Nelson*** - Code Institute Tutor Team - Help in connecting to AWS
 
-***Maya Saffronhan*** - fellow student - Deployment and Technologies sections in README.md
+***Maya Saffronhan*** - fellow student - Help in `Deployment` & `Technologies` sections in README.md
 
-***Font Awesome*** -  https://fontawesome.com/ - CDN for icons used in the project
+***George Becker*** @ Pexels - For the `Lighted Purple Candle` background image which I also based the colors of the site on
 
-***Google Fonts*** - https://fonts.google.com/ - CDN for fonts used in the project
-
-***JQuery*** - https://jquery.com/
-
-***George Becker*** @ Pexels - For the "Lighted Purple Candle" background image which I also based the colors of the site on
-
-***Vie Studio*** @ Pexels - For the "Coming Soon" image used when no product image uploaded or image URL entered
+***Vie Studio*** @ Pexels - For the `Coming Soon` image used when no product image uploaded or image URL entered
 
 ***Etsy.com*** - Credit for most product images and descriptions due to their respective creators/owners. These assets WILL NOT be used for commercial purposes! 
 
-***Font Awesome*** - CDN for icons used in the project
+***Font Awesome*** - [CDN](https://fontawesome.com/) for icons used in the project
 
-***Google Fonts*** - CDN for fonts used in the project
+***Google Fonts*** - [CDN](https://fonts.google.com/) for fonts used in the project
+
+***Favicon.io*** - For generating `favicon.ico`
+
+***JQuery*** - https://jquery.com/
 
 ***Autoprefixer CSS online*** - https://autoprefixer.github.io/
