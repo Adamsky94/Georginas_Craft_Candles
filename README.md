@@ -2,8 +2,6 @@
 
 Code Institute Diploma in Full-Stack Web Development Milestone 4 - Final Project
 
-##### <u>Project name:</u> Georgina's Craft Candles
-
 <img src="/readme_imgs/logo.png" />
 
 ### View the live project: https://ginas-candles.herokuapp.com/
@@ -12,8 +10,10 @@ Code Institute Diploma in Full-Stack Web Development Milestone 4 - Final Project
 
 ### <u>Scope of the project</u>
 
+Georgina's Craft Candles is an e-Commerce site or webshop built with the use of Python & Django. The project code is based on the Code Institute mini-project from Chris Z. The inspiration for the project idea came from my finacée. She was telling me one day how she'd like to get different molds, shapes, materials, coloring, and fragrances to make candles. It hasn't happened yet, but it was enough to push me towards creating a site as my final project which potentially in the future could be used as a real & live site, where she can show & distribute her creations, and people can browse, search, order, and pay for the handcrafted candles.
 
 -----------------
+
 ### <u>Contents</u>
 
 -----------------
@@ -22,42 +22,70 @@ Code Institute Diploma in Full-Stack Web Development Milestone 4 - Final Project
 
 #### User Stories
 
-###### As a visitor I expect:
+###### As a visitor, I expect to be able to:
 
+  - browse all products
+  - search products
+  - select products based on categories 
+  - see more details of individual products 
+  - add, delete & update the number of products in a bag
+  - securely check out and pay for my items of choice
+  - view the site on pc or mobile devices
+  - see non-broken, responsive layout on all resolutions and screen sizes
+  - view all images, not seeing broken images
+  - easily navigate on the site and clear feedback on user interaction
+  - register on the site and have my details saved
 
-###### As a registered user I expect in addition to the above:
+###### As a registered user, I expect in addition to the above to:
 
+  - log in to and log out from my personal profile
+  - save & edit my personal details
+  - see my previous orders in detail
 
-###### As the administrator I expect in addition to the above:
+###### As the administrator, I expect in addition to the above to:
 
+ - provide customers with a secure and safe e-commerce shop
+ - make profit from selling products
+ - edit products in detail from the frontend
+ - delete products from the frontend
+ - add, remove or edit categories & products in detail from the backend
+ - see all orders generated from the backend
+ - manage registered users from the backend
 
 -----------------
 
 #### **Wireframing**
 
+##### **index page**
 <img src="/readme_imgs/index_mob.png" />
 
+##### **login**
 <img src="/readme_imgs/login_reg_pc.png" />
 
+##### **profile**
 <img src="/readme_imgs/profile_pc.png" />
 
+##### **products**
 <img src="/readme_imgs/productsearch_tab.png" />
 
+##### **product in detail**
 <img src="/readme_imgs/productdetail_pc.png" />
 
+##### **shopping baG**
 <img src="/readme_imgs/bag_tab.png" />
 
+##### **checkout**
 <img src="/readme_imgs/checkout_mob.png" />
 
+##### **order confirmation**
 <img src="/readme_imgs/order_pc.png" />
 
+##### **product edit**
 <img src="/readme_imgs/edit_pc.png" />
-
-
-
 
 **Color scheme and typography**
 
+<img src="/readme_imgs/colors.png" />
 
 -----------------
 
@@ -356,33 +384,35 @@ os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH Secret Key>"
 
 ### Credits
 
-***Antonio Rodriguez*** - My Mentor at Code Institute - Technical and Visual feedback on my Project 
+***Antonio Rodriguez*** - My Mentor at Code Institute - Technical and Visual `feedback` on my Project 
 
-***Chris Z*** - **ckz8780** @ GitHub -  Lecturer/Developer at Code Institute - For the MS4 mini-project videos, introduction to Slack & AWS, and the project code which is the foundation of my own MS4 Project
+***Chris Z*** - **ckz8780** @ GitHub -  Lecturer/Developer at Code Institute - For the MS4 mini-project videos, introduction to `Slack & AWS` , and the `project code` which is the foundation of my own MS4 Project
 
-***Matt Rudge*** - Lecturer/Developer at Code Institute - for [template](https://github.com/Code-Institute-Org/gitpod-full-template) used with GitPod IDE for developing this project
+***Matt Rudge*** - Lecturer/Developer at Code Institute - for [template](https://github.com/Code-Institute-Org/gitpod-full-template) used with `GitPod IDE` for developing this project
 
-***Fatima*** - Code Institute Tutor Team - Help in creating and understanding fixtures
+***Fatima*** - Code Institute Tutor Team - Help in creating and understanding `fixtures`
 
-***Jo Heyndels & Igor Basuga*** - Code Institute Tutor Team - Help in fixing Heroku H10 error
+***Jo Heyndels & Igor Basuga*** - Code Institute Tutor Team - Help in `fixing Heroku H10 error`
 
-***Tim Nelson*** - Code Institute Tutor Team - Help in connecting to AWS
+***Tim Nelson*** - Code Institute Tutor Team - Help in `connecting to AWS`
 
 ***Maya Saffronhan*** - fellow student - Help in `Deployment` & `Technologies` sections in README.md
 
-***George Becker*** @ Pexels - For the `Lighted Purple Candle` background image which I also based the colors of the site on
+***George Becker*** @ [Pexels](https://www.pexels.com/photo/lighted-purple-candle-against-black-background-356660/) - For the `Lighted Purple Candle` background image which I also based the colors of the site on
 
-***Vie Studio*** @ Pexels - For the `Coming Soon` image used when no product image uploaded or image URL entered
+***Vie Studio*** @ [Pexels](https://www.pexels.com/photo/love-people-art-sign-4439444/) - For the `Coming Soon` image used when no product image uploaded or image URL entered
 
-***Etsy.com*** - [Credit](https://www.etsy.com/) for most product images and descriptions due to their respective creators/owners. These assets WILL NOT be used for commercial purposes! 
+***Etsy.com*** - [Credit](https://www.etsy.com/) for most `product images and descriptions` due to their respective creators/owners. These assets WILL NOT be used for commercial purposes! 
 
-***EZgif.com*** - [Converting](https://ezgif.com/) the project's captured videos to GIF
+***Xbox Game Bar*** - [App](https://www.microsoft.com/en-us/p/xbox-game-bar/9nzkpstsnw4p?cid=msft_web_chart&activetab=pivot:overviewtab) used for capturing on-screen content
+
+***EZgif.com*** - [Converting](https://ezgif.com/) the project's `captured videos to GIF's`
 
 ***Font Awesome*** - [CDN](https://fontawesome.com/) for icons used in the project
 
 ***Google Fonts*** - [CDN](https://fonts.google.com/) for fonts used in the project
 
-***Favicon.io*** - For generating `favicon.ico`
+***Favicon.io*** - For [generating](https://favicon.io/) `favicon.ico`
 
 ***JQuery*** - https://jquery.com/
 
