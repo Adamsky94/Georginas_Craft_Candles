@@ -121,6 +121,8 @@ You could only see this page if you have the proper credentials. If you are logg
 
 **Color scheme and typography**
 
+<img src="/readme_imgs/screen1.jpg" />
+
 The full-page background image of a candle is carried through all pages. Sometimes it does have an overlay on it but this image is the baseline for setting the color scheme of the project. I used dark backgrounds with shades of pink-ish & purple-ish colors which are in good contrast with the backdrop.
 
 <img src="/readme_imgs/colors.png" />
@@ -208,6 +210,8 @@ price | price | max_digits=6, decimal_places=2 | DecimalField
 promotion | promotion | default=False | BooleanField
 product image URL | image_url | max_length=1024, null=True, blank=True | CharField
 product image | image | null=True, blank=True | ImageField
+
+<img src="/readme_imgs/dev1.jpg" />
 
 #### Checkout app models
 Within the checkout app, the <strong>Order</strong> model holds all the data of the users' order. The <strong>OrderLineItem</strong> model, mainly extracts data from the order model, to get the order number, but also returns the user on the front end the information about each individual product. 
@@ -316,8 +320,26 @@ Used online [code formatter](https://webformatter.com/) to achieve optimal synta
 
 ##### Bug Fixes
 
+- Fixtures
+<img src="/readme_imgs/db_err.jpg" />
 
-##### Lighthouse Speed Tool
+When I was trying to upload the project to Heroku I did not have any fixtures as I have uploaded my products one-by-one in the development phase. I was stuck with this issue, but `Fatima` from the Tutor Team helped me to solve this issue.
+
+- Heroku H10 error
+
+On the first few occasions when I was trying to deploy my project to Heroku I have got `H10 Error`. As I couldn't fix the issue myself I went to the Tutor Team again. `Jo Heyndels & Igor Basuga` were helping me making sure that my file structure is correct, I have every variable set properly and everything is correct in my Procfile. Finally the site was working on the Heroku servers.
+
+- Stripe API key
+<img src="/readme_imgs/stripe_err.jpg" />
+
+I came across this error with Stripe that it no longer wanted to accept my test API key. As it was working fine before I got in touch with their `customer service` to try to sort the issue. We concluded that the issue is on my end so I checked the code again. I realized that I have opened a new GitPod workspace and I `improperly copied the test API key` to my environment variables.
+
+- AWS storage
+<img src="/readme_imgs/static_err.jpg" />
+
+After setting up an AWS S3 bucket for hosting my static files I noticed that on deploying to Heroku the build log said that my files are `uploaded to a temp` folder. I was not sure if my AWS setup was correct so I went to the Tutor Team again. `Tim Nelson` was helping me making sure that my images are hosted on the AWS servers. We fixed the setup issue at the end.
+
+##### Lighthouse 
 
 Inspecting the deployed page with Google Chrome's `Lighthouse` tool highlighted potentional issues on `accessible name on buttons`, `accessible names on links`, `cross-origin destination` & `document meta description`.
 
