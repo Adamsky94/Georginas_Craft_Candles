@@ -121,7 +121,7 @@ You could only see this page if you have the proper credentials. If you are logg
 
 **Color scheme and typography**
 
-<img src="/readme_imgs/screen1.jpg" />
+<img src="/readme_imgs/screen_1.jpg" />
 
 The full-page background image of a candle is carried through all pages. Sometimes it does have an overlay on it but this image is the baseline for setting the color scheme of the project. I used dark backgrounds with shades of pink-ish & purple-ish colors which are in good contrast with the backdrop.
 
