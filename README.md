@@ -61,71 +61,73 @@ Georgina's Craft Candles is an e-Commerce site or webshop built with the use of 
 On the index page, you'd find a full-screen background image which would be also carried over to the other pages of the project. There's a top navigation bar that would be always visible and change form on small screen devices. In the navigation, there are further dropdown options as well as buttons to go to the profile and the basket. A slogan and a button inviting visitors to shop now would be contained in the body. On the bottom, you'd see the slogan again on the left side and some navigation links on the right. This would also be carried over to all pages.
 
 <img src="/readme_imgs/index_mob.png" />
-* * *
+--------
 
 ##### **login & registration**
 
 On the left side of the body, you'd see text input rows asking for personal details appropriate for logging in or registering a new user. Below the form, there would be buttons for submitting the form or canceling input.
 
 <img src="/readme_imgs/login_reg_pc.png" />
-* * *
+--------
 
 ##### **profile**
 
 After logging in users would be able to enter their shipping details in a form that can be saved and updated afterward on the left side of the page. On the right, the registered user would see a list generated of their previous orders.
 
 <img src="/readme_imgs/profile_pc.png" />
-* * *
+--------
 
 ##### **products**
 
 The products would be displayed as cards laid out in a row of 4's, 3's, 2's, and single according to change in the viewport. The top part of the card would contain the product image and the bottom would be showing the name and the price. You are also able to search for products in the navbar.
 
 <img src="/readme_imgs/productsearch_tab.png" />
-* * *
+--------
 
 ##### **product in detail**
 
 Again the page would be split in half and the layout would shift according to the viewport. On the left side, you can see the product image and on the right, you'd see the name, price, product description, quantity select controls, and both a 'back' and 'add to bag' button.
 
 <img src="/readme_imgs/productdetail_pc.png" />
-* * *
+--------
 
 ##### **shopping bag**
 
 In the shopping bag, there would be a detailed list of items you previously saved to it. You could then adjust the quantity or remove these if you'd like. On interacting with items in the store toasts provide feedback to the users. Adding or removing products would also update prices live. On the bottom, you'd find buttons either to go back to browse more products or to the checkout page.
 
 <img src="/readme_imgs/bag_tab.png" />
-* * *
+--------
 
 ##### **checkout**
 
 On the checkout page again you'd see a less detailed list of your items and a form where you need to enter your details and bank details. It would also show you the final total price including delivery. On the bottom, you will find buttons to either go back to the products or complete the order. 
 
 <img src="/readme_imgs/checkout_mob.png" />
-* * *
+--------
 
 ##### **order confirmation**
 
 On successfully providing all details and completing the order the user would be redirected to an order confirmation page, where they'd see a report generated with a unique order number, personal details, and the purchased products listed. There would be a button below it pointing back to the products page.
 
 <img src="/readme_imgs/order_pc.png" />
-* * *
+--------
 
 ##### **product edit**
 
 You could only see this page if you have the proper credentials. If you are logged in with them, you can access this page either from the navbar to upload a new product or there would be 'edit & delete' links generated on every single item in the shop both in the generic and the detailed product view. This page would contain a form where you can enter all details for the products and add a product image if you have one.
 
 <img src="/readme_imgs/edit_pc.png" />
-* * *
+--------
 
 **Color scheme and typography**
 
 The full-page background image of a candle is carried through all pages. Sometimes it does have an overlay on it but this image is the baseline for setting the color scheme of the project. I used dark backgrounds with shades of pink-ish & purple-ish colors which are in good contrast with the backdrop.
+
 <img src="/readme_imgs/colors.png" />
 
-The fonts I used are 'Tangerine' for the logo, which is a nice cursive font, and 'Fira Sans Condensed' which is a modern style font for all text content in different weights. Most of the text is colored white except for some pink hyperlinks.
-* * *
+The fonts I used are `Tangerine` for the logo, which is a nice cursive font, and `Fira Sans Condensed` which is a modern style font for all text content in different weights. Most of the text is colored white except for some pink hyperlinks.
+
+<img src="/readme_imgs/text.png" />
 
 -----------------
 
@@ -157,6 +159,103 @@ HTML5, CSS3, JavaScript-ES6, Python3
 
 - [SQlite3](https://www.sqlite.org/index.html)- database used for development.
 - [PostgreSQL](https://www.postgresql.org/) - database used for production.
+
+#### Django-allauth features
+
+Sign Up: The users will be asked to fill out E-mail, User Name and Password to create an account. When the sign up form is submitted, a verification email will be sent to the user's email address to complete the sign up process.
+
+Log In: Users will be asked to input User Name or Email, and Password to login. If the user successfully logged in, a success message will pop up and redirect to the landing page.
+
+Log out: Log out page is accessible from the site menu. After the user successfully signed out button on the sign out page, a success message will appear and redirect to the landing page.
+
+Forgot password: Forgot password page is accessible from Sign In page. Users will be asked to put in an email address which they have used for their registration to the site. An email with a link to reset the password will be sent after submitting the form.
+
+-----------------
+
+## Information Architecture
+### Database choice
+- Development phase
+**SQLight** database was used for the development which is installed with Django. 
+
+- Deployment phase
+**PostgreSQL** was used on the deployment stage, which is provided as add-on by Heroku application.
+
+- User model is provided as a default by [Django's authentication system](https://docs.djangoproject.com/en/3.1/ref/contrib/auth/).
+
+### Data Modeling
+
+#### User
+The user model utilised for this project is the standard model, provided by from django.contrib.auth.models 
+
+#### Products app models
+Within the products app, the <strong>Product</strong> model holds all the data necessary for the functionality of the store. The <strong>Category</strong> model provides the categories on which the products depend on. 
+
+##### Category Model
+| Title | Key in db | Form validation type | Data type |
+-----  | ---  | --- | ---
+Category | name| max_length=254 | CharField
+
+##### Product Model
+| Title | Key in db | Form validation type | Data type |
+-----  | ---  | --- | ---
+category | category | null=True,blank=True, on_delete=models.SET_NULL | ForeignKey 
+name | name | max_length=254  | CharField    
+scent | scent | max_length=50 | CharField
+color | color | max_length=20 | CharField
+material | material | max_length=20 | CharField
+description | description | none | TextField
+price | price | max_digits=6, decimal_places=2 | DecimalField 
+promotion | promotion | default=False | BooleanField
+product image URL | image_url | max_length=1024, null=True, blank=True | CharField
+product image | image | null=True, blank=True | ImageField
+
+#### Checkout app models
+Within the checkout app, the <strong>Order</strong> model holds all the data of the users' order. The <strong>OrderLineItem</strong> model, mainly extracts data from the order model, to get the order number, but also returns the user on the front end the information about each individual product. 
+
+##### Order Model
+| Title | Key in db | Form validation type | Data type |
+-----  | ---  | --- | ---
+Order number | order_number| max_length=32, null=False, editable=False| CharField
+User | user_profile  | on_delete=models.SET_NULL,null=True, blank=True, related_name='orders'| ForeignKey
+Full name | full_name | max_length=50, null=False, blank=False | CharField
+Email | email | max_length=254, null=False, blank=False | EmailField
+Phone number | phone_number | max_length=20, null=False, blank=False | CharField
+Country | country | blank_label='Country *', null=False, blank=False | CountryField
+Postcode | postcode | max_length=20, null=True, blank=True| CharField
+Town or city | town_or_city | max_length=40, null=True, blank=True | CharField
+Street address1 | street_address1 | max_length=80, null=True, blank=True | CharField
+Street address2 | street_address2 | max_length=80, null=True, blank=True | CharField
+County | county | max_length=80, null=True, blank=True | CharField
+Date | date | auto_now_add=True | DateTimeField
+Delivery cost | delivery_cost | max_digits=6,decimal_places=2, null=False, default=0 | DecimalField
+Order total | order_total | max_digits=10,decimal_places=2, null=False, default=0 | DecimalField
+Grand total | grand_total | max_digits=10,decimal_places=2, null=False, default=0 | DecimalField
+Original bag | original_bag | null=False, blank=False, default='' | TextField
+Stripe pid | stripe_pid | max_length=254, blank=False, default='' | CharField
+
+##### OrderLineItem Model
+| Title | Key in db | Form validation type | Data type |
+-----  | ---  | --- | ---
+Order | order | null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems' | ForeignKey
+Product | product | null=False, blank=False, on_delete=models.CASCADE | ForeignKey
+Quantity | quantity | null=False, blank=False, default=0 | IntegerField
+Total | lineitem_total | max_digits=6, decimal_places=2, null=False, blank=False, editable=False | DecimalField
+
+#### Profile app model
+Within the profile app, the <strong>UserProfile</strong> model holds all the data necessary for the user to have a prefilled order form, if they create a profile. This saves them time and energy, when checking out. 
+
+##### UserProfile Model
+| Title | Key in db | Form validation type | Data type |
+-----  | ---  | --- | ---
+User | user | on_delete=models.CASCADE | OneToOneField
+Phone number | default_phone_number | max_length=20, null=True, blank=True | CharField
+Country | default_country | blank_label='Country *', null=True, blank=True | CountryField
+Postcode | default_postcode | max_length=20, null=True, blank=True| CharField
+Town or city | default_town_or_city | max_length=40, null=True, blank=True | CharField
+Street address1 | default_street_address1 | max_length=80, null=True, blank=True | CharField
+Street address2 | default_street_address2 | max_length=80, null=True, blank=True | CharField
+County | default_county | max_length=80, null=True, blank=True | CharField
+
 
 -----------------
 
@@ -198,18 +297,22 @@ Used online [code formatter](https://webformatter.com/) to achieve optimal synta
 #### Site in action / login
 
 <img src="/readme_imgs/login.gif" />
+--------
 
 #### Site in action / products
 
 <img src="/readme_imgs/products.gif" />
+--------
 
 #### Site in action / checkout
 
 <img src="/readme_imgs/checkout.gif" />
+--------
 
 #### Site in action / search & modify
 
 <img src="/readme_imgs/search_modify.gif" />
+--------
 
 ##### Bug Fixes
 
@@ -436,7 +539,7 @@ os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH Secret Key>"
 
 ***Tim Nelson*** - Code Institute Tutor Team - Help in `connecting to AWS`
 
-***Maya Saffronhan*** - fellow student - Help in `Deployment` & `Technologies` sections in README.md
+***Maya Saffronhan*** - fellow student - Help in `Deployment, Technologies, Django-allauth & Information Architecture` sections in README.md
 
 ***George Becker*** @ [Pexels](https://www.pexels.com/photo/lighted-purple-candle-against-black-background-356660/) - For the `Lighted Purple Candle` background image which I also based the colors of the site on
 
