@@ -57,35 +57,75 @@ Georgina's Craft Candles is an e-Commerce site or webshop built with the use of 
 #### **Wireframing**
 
 ##### **index page**
-<img src="/readme_imgs/index_mob.png" />
 
-##### **login**
+On the index page, you'd find a full-screen background image which would be also carried over to the other pages of the project. There's a top navigation bar that would be always visible and change form on small screen devices. In the navigation, there are further dropdown options as well as buttons to go to the profile and the basket. A slogan and a button inviting visitors to shop now would be contained in the body. On the bottom, you'd see the slogan again on the left side and some navigation links on the right. This would also be carried over to all pages.
+
+<img src="/readme_imgs/index_mob.png" />
+* * *
+
+##### **login & registration**
+
+On the left side of the body, you'd see text input rows asking for personal details appropriate for logging in or registering a new user. Below the form, there would be buttons for submitting the form or canceling input.
+
 <img src="/readme_imgs/login_reg_pc.png" />
+* * *
 
 ##### **profile**
+
+After logging in users would be able to enter their shipping details in a form that can be saved and updated afterward on the left side of the page. On the right, the registered user would see a list generated of their previous orders.
+
 <img src="/readme_imgs/profile_pc.png" />
+* * *
 
 ##### **products**
+
+The products would be displayed as cards laid out in a row of 4's, 3's, 2's, and single according to change in the viewport. The top part of the card would contain the product image and the bottom would be showing the name and the price. You are also able to search for products in the navbar.
+
 <img src="/readme_imgs/productsearch_tab.png" />
+* * *
 
 ##### **product in detail**
-<img src="/readme_imgs/productdetail_pc.png" />
 
-##### **shopping baG**
+Again the page would be split in half and the layout would shift according to the viewport. On the left side, you can see the product image and on the right, you'd see the name, price, product description, quantity select controls, and both a 'back' and 'add to bag' button.
+
+<img src="/readme_imgs/productdetail_pc.png" />
+* * *
+
+##### **shopping bag**
+
+In the shopping bag, there would be a detailed list of items you previously saved to it. You could then adjust the quantity or remove these if you'd like. On interacting with items in the store toasts provide feedback to the users. Adding or removing products would also update prices live. On the bottom, you'd find buttons either to go back to browse more products or to the checkout page.
+
 <img src="/readme_imgs/bag_tab.png" />
+* * *
 
 ##### **checkout**
+
+On the checkout page again you'd see a less detailed list of your items and a form where you need to enter your details and bank details. It would also show you the final total price including delivery. On the bottom, you will find buttons to either go back to the products or complete the order. 
+
 <img src="/readme_imgs/checkout_mob.png" />
+* * *
 
 ##### **order confirmation**
+
+On successfully providing all details and completing the order the user would be redirected to an order confirmation page, where they'd see a report generated with a unique order number, personal details, and the purchased products listed. There would be a button below it pointing back to the products page.
+
 <img src="/readme_imgs/order_pc.png" />
+* * *
 
 ##### **product edit**
+
+You could only see this page if you have the proper credentials. If you are logged in with them, you can access this page either from the navbar to upload a new product or there would be 'edit & delete' links generated on every single item in the shop both in the generic and the detailed product view. This page would contain a form where you can enter all details for the products and add a product image if you have one.
+
 <img src="/readme_imgs/edit_pc.png" />
+* * *
 
 **Color scheme and typography**
 
+The full-page background image of a candle is carried through all pages. Sometimes it does have an overlay on it but this image is the baseline for setting the color scheme of the project. I used dark backgrounds with shades of pink-ish & purple-ish colors which are in good contrast with the backdrop.
 <img src="/readme_imgs/colors.png" />
+
+The fonts I used are 'Tangerine' for the logo, which is a nice cursive font, and 'Fira Sans Condensed' which is a modern style font for all text content in different weights. Most of the text is colored white except for some pink hyperlinks.
+* * *
 
 -----------------
 
