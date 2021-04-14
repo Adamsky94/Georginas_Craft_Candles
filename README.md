@@ -292,7 +292,7 @@ I used Git for version control and uploading the project to GitHub.
 
 My GitHub repository for this project: https://github.com/Adamsky94/Georginas_Craft_Candles
 
-### Testing write-up
+### Testing
 
 HTML code validated on - https://validator.w3.org/ - only shows errors on templating
 
@@ -323,7 +323,7 @@ Used online [code formatter](https://webformatter.com/) to achieve optimal synta
 
 
 #### Testing User Stories
-###### Visitor testing
+###### - Visitor testing
 
 browse all products
     - clearly visible call to action button for all visitors of the site
@@ -356,7 +356,7 @@ easily navigate on the site and clear feedback on user interaction
 register on the site and have my details saved
     - functionality provided by django with sending email on registration
 
-###### Registered user testing
+###### - Registered user testing
 
 log in to and log out from my personal profile
     - working functionality using the django-allauth templates
@@ -367,15 +367,15 @@ save & edit my personal details
 see my previous orders in detail
     - list of previous orders generated, on clicking the order number you see a more detailed view of that certain past order
 
-###### Administrator testing
+###### - Administrator testing
 
-edit products in detail from the frontend &
+edit products in detail from the frontend |
 delete products from the frontend
     - custom product management page implemented for ease of access, the form on the page correctly updates and saves details in the database 
 
-add, remove or edit categories & products in detail from the backend &
-see all orders generated from the backend &
-manage registered users from the backend &
+add, remove or edit categories & products in detail from the backend |
+see all orders generated from the backend |
+manage registered users from the backend |
     - Django makes sure of all CRUD functionality is working as expected
 
 
