@@ -16,6 +16,29 @@ Georgina's Craft Candles is an e-Commerce site or webshop built with the use of 
 
 ### <u>Contents</u>
 
+- [User Stories](#User-Stories)
+
+- [Wireframing](#Wireframing)
+
+- [Technologies Used](#Technologies-used)
+
+- [Information Architecture](#Information-Architecture)
+
+- [Version Control](#Version-control)
+
+- [Testing](#Testing)
+
+  - [Testing User Stories](#Testing-user-stories)
+  - [Bug Fixes](#Bug-fixes)
+  - [Lighthouse](#Lighthouse)
+
+- [Deployment](#Deployment)
+
+    - [Heroku Deployment with AWS](#Heroku-Deployment-with-AWS)
+    - [Local Deployment](#Local-Deployment)
+
+- [Credits](#Credits)
+
 -----------------
 
 ### <u>UX Design / Presentation</u>
@@ -297,6 +320,64 @@ Responsivity for mobile devices tested on:
 Used online [autoprefixer](https://autoprefixer.github.io/) for maximum browser compatibility
 
 Used online [code formatter](https://webformatter.com/) to achieve optimal syntax
+
+
+#### Testing User Stories
+###### Visitor testing
+
+browse all products
+    - clearly visible call to action button for all visitors of the site
+
+search products
+    - functioning searchbar in the navigation
+
+select products based on categories 
+    - functioning dropdown menus in the navbar responding to the appropriate search queries
+
+see more details of individual products 
+    - detailed product view on clicking on product cards
+
+add, delete & update the number of products in a bag
+    - working quantity updating buttons with custom JavaScript
+
+securely check out and pay for my items of choice
+    - Stripe payment method integrated, tested with demo card number
+
+view the site on pc or mobile devices &
+see non-broken, responsive layout on all resolutions and screen sizes
+    - testing methods stated in section above
+
+view all images, not seeing broken images
+    - correct form of image hosting applied with alt tags
+
+easily navigate on the site and clear feedback on user interaction
+    - navigation links and toasts providing feedback to the user 
+
+register on the site and have my details saved
+    - functionality provided by django with sending email on registration
+
+###### Registered user testing
+
+log in to and log out from my personal profile
+    - working functionality using the django-allauth templates
+
+save & edit my personal details
+    - updateable contact form implemented in the profile app
+
+see my previous orders in detail
+    - list of previous orders generated, on clicking the order number you see a more detailed view of that certain past order
+
+###### Administrator testing
+
+edit products in detail from the frontend &
+delete products from the frontend
+    - custom product management page implemented for ease of access, the form on the page correctly updates and saves details in the database 
+
+add, remove or edit categories & products in detail from the backend &
+see all orders generated from the backend &
+manage registered users from the backend &
+    - Django makes sure of all CRUD functionality is working as expected
+
 
 #### Site in action / login
 
