@@ -4,7 +4,7 @@ Code Institute Diploma in Full-Stack Web Development Milestone 4 - Final Project
 
 <img src="/readme_imgs/logo.png" />
 
-### View the live project: https://ginas-candles.herokuapp.com/
+### View the live project hosted on Heroku -> [Georgina's Craft Candles](https://ginas-candles.herokuapp.com/)
 
 -----------------
 
@@ -45,7 +45,7 @@ Georgina's Craft Candles is an e-Commerce site or webshop built with the use of 
 
 #### User Stories
 
-###### As a visitor, I expect to be able to:
+###### As a first time user, I expect to be able to:
 
   - browse all products
   - search products
@@ -59,7 +59,7 @@ Georgina's Craft Candles is an e-Commerce site or webshop built with the use of 
   - easily navigate on the site and clear feedback on user interaction
   - register on the site and have my details saved
 
-###### As a registered user, I expect in addition to the above to:
+###### As a returning registered user, I expect in addition to the above to:
 
   - log in to and log out from my personal profile
   - save & edit my personal details
@@ -323,7 +323,7 @@ Used online [code formatter](https://webformatter.com/) to achieve optimal synta
 
 
 #### Testing User Stories
-###### - Visitor testing
+##### / First time user testing
 
 browse all products
     - clearly visible call to action button for all visitors of the site
@@ -343,6 +343,8 @@ add, delete & update the number of products in a bag
 securely check out and pay for my items of choice
     - Stripe payment method integrated, tested with demo card number
 
+<img src="/readme_imgs/checkout.gif" />
+
 view the site on pc or mobile devices &
 see non-broken, responsive layout on all resolutions and screen sizes
     - testing methods stated in section above
@@ -356,7 +358,9 @@ easily navigate on the site and clear feedback on user interaction
 register on the site and have my details saved
     - functionality provided by django with sending email on registration
 
-###### - Registered user testing
+<img src="/readme_imgs/products.gif" />
+
+##### / Returning Registered user testing
 
 log in to and log out from my personal profile
     - working functionality using the django-allauth templates
@@ -367,37 +371,20 @@ save & edit my personal details
 see my previous orders in detail
     - list of previous orders generated, on clicking the order number you see a more detailed view of that certain past order
 
-###### - Administrator testing
+<img src="/readme_imgs/login.gif" />
+
+##### / Administrator testing
 
 edit products in detail from the frontend |
 delete products from the frontend
     - custom product management page implemented for ease of access, the form on the page correctly updates and saves details in the database 
 
+<img src="/readme_imgs/search_modify.gif" />
+
 add, remove or edit categories & products in detail from the backend |
 see all orders generated from the backend |
 manage registered users from the backend |
     - Django makes sure of all CRUD functionality is working as expected
-
-
-#### Site in action / login
-
-<img src="/readme_imgs/login.gif" />
---------
-
-#### Site in action / products
-
-<img src="/readme_imgs/products.gif" />
---------
-
-#### Site in action / checkout
-
-<img src="/readme_imgs/checkout.gif" />
---------
-
-#### Site in action / search & modify
-
-<img src="/readme_imgs/search_modify.gif" />
---------
 
 ##### Bug Fixes
 
@@ -462,7 +449,6 @@ This website is deployed on [Heroku](https://www.heroku.com/), following these s
 | STRIPE_SECRET_KEY     | `Your Stripe Secret Key`     |
 | STRIPE_WH_SECRET      | `Your Stripe WH Key`         |
 | USE_AWS               | `True`                       |
-| DEVELOPMENT           | `False`                      |
 
 
 1. Comment out the current database setting in settings.py, and add the code below instead. This is done temporarily to migrate the datbase on Heroku.
@@ -624,7 +610,7 @@ os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH Secret Key>"
 
 13. Now you can access the app using the command `python3 manage.py runserver`
 
-#### The live project page: https://ginas-candles.herokuapp.com/
+#### View the live project hosted on Heroku -> [Georgina's Craft Candles](https://ginas-candles.herokuapp.com/)
 
 -----------------
 
